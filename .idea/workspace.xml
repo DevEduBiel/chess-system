@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="" />
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Camadas do xadrez e print do tabuleiro">
+      <change afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/Color.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2N0tJqGVp0lqALu6u24BwzEq0Cl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -19,6 +45,34 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\egvitorino\IdeaProjects\chess-system\src" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src.chess" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.app.Main" />
+      <module name="chess-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -29,5 +83,22 @@
       <updated>1678812762220</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Criando primeiras classes do projeto" />
+    <MESSAGE value="Camadas do xadrez e print do tabuleiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="Camadas do xadrez e print do tabuleiro" />
   </component>
 </project>

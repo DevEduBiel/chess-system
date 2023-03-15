@@ -1,11 +1,13 @@
 package src.app;
 
-import src.boardgame.Board;
-import src.boardgame.Position;
+
+import src.chess.ChessMath;
 
 public class Main {
     public static void main(String[] args) {
-        Board bord = new Board(8,8);
+        ChessMath chessMath = new ChessMath();
+
+        UI.printBoard(chessMath.getPieces());
 
     }
 }
