@@ -4,7 +4,7 @@ import src.boardgame.Board;
 import src.boardgame.Piece;
 import src.chess.pieces.Color;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
     private Color color;
 

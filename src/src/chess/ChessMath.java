@@ -41,6 +41,8 @@ public class ChessMath {
     private void validateSourcePosition(Position position){
         if(!board.thereIsAPiece(position)){
             throw new ChessException("Source position is not valid");
+        }if (board.piece(position).isTherePossibleMove()){
+            throw new ChessException("Source position is not valid");
         }
     }
 
