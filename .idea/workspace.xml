@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Camadas do xadrez e print do tabuleiro">
-      <change afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/Rook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,14 @@
         <option value="Enum" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -82,6 +86,14 @@
       <option name="presentableId" value="Default" />
       <updated>1678812762220</updated>
     </task>
+    <task id="LOCAL-00001" summary="Camadas do xadrez e print do tabuleiro">
+      <created>1678889529860</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678889529860</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +108,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Criando primeiras classes do projeto" />
     <MESSAGE value="Camadas do xadrez e print do tabuleiro" />
