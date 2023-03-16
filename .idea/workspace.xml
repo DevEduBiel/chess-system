@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Movimento das peças">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Possiveis movimentos para as peças">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/app/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Position.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Position.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/Rook.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,9 @@
       </GitPushTagMode>
     </option>
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,12 +49,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\egvitorino\IdeaProjects\chess-system\src" />
@@ -118,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678898995056</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Manuseio de exceções e limpando a tela">
+      <created>1678899445576</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678899445576</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Possiveis movimentos para as peças">
+      <created>1678900192846</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678900192846</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +165,55 @@
     <MESSAGE value="BoardException e programação defensiva" />
     <MESSAGE value="ChessException e ChessPosition" />
     <MESSAGE value="Movimento das peças" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movimento das peças" />
+    <MESSAGE value="Manuseio de exceções e limpando a tela" />
+    <MESSAGE value="Possiveis movimentos para as peças" />
+    <option name="LAST_COMMIT_MESSAGE" value="Possiveis movimentos para as peças" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/src/chess/pieces/Rook.java</url>
+          <line>19</line>
+          <properties class="src.chess.pieces.Rook" method="possibleMoves">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/src/chess/ChessMath.java</url>
+          <line>49</line>
+          <properties class="src.chess.ChessMath" method="validateSourcePosition">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/src/boardgame/Piece.java</url>
+          <line>20</line>
+          <properties class="src.boardgame.Piece" method="isThereAnyPossibleMove">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="src.boardgame.Board" memberName="rows" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="mat[i]" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
