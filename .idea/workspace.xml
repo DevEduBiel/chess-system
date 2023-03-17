@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Trocando de jogador a cada turno">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Manuseio de peças capturadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/app/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/King.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,9 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/azul-17.0.6/lib/src.zip!/java.base/java/io/FileInputStream.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -166,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679061252281</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Manuseio de peças capturadas">
+      <created>1679063483438</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679063483438</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +207,8 @@
     <MESSAGE value="Printando possiveis movimentos" />
     <MESSAGE value="Implementando movimentos possiveis do Rei" />
     <MESSAGE value="Trocando de jogador a cada turno" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trocando de jogador a cada turno" />
+    <MESSAGE value="Manuseio de peças capturadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Manuseio de peças capturadas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -216,7 +229,7 @@
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
