@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Contagem de movimento das peças">
-      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/Pawn.java" afterDir="false" />
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Peao">
+      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
     </list>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679076875882</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Peao">
+      <created>1679078251984</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679078251984</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +236,8 @@
     <MESSAGE value="Logica Check" />
     <MESSAGE value="Logica CheckMate" />
     <MESSAGE value="Contagem de movimento das peças" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contagem de movimento das peças" />
+    <MESSAGE value="Peao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Peao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
