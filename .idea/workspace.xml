@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Manuseio de peças capturadas">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Logica Check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/app/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessPosition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/King.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679063483438</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Logica Check">
+      <created>1679074959187</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679074959187</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +213,8 @@
     <MESSAGE value="Implementando movimentos possiveis do Rei" />
     <MESSAGE value="Trocando de jogador a cada turno" />
     <MESSAGE value="Manuseio de peças capturadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Manuseio de peças capturadas" />
+    <MESSAGE value="Logica Check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logica Check" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
