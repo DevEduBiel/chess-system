@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Printando possiveis movimentos">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Implementando movimentos possiveis do Rei">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678986125276</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Implementando movimentos possiveis do Rei">
+      <created>1679060277002</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679060277002</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,20 +185,12 @@
     <MESSAGE value="Possiveis movimentos para as peças" />
     <MESSAGE value="Implementando possiveis movimentos para a torre" />
     <MESSAGE value="Printando possiveis movimentos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printando possiveis movimentos" />
+    <MESSAGE value="Implementando movimentos possiveis do Rei" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando movimentos possiveis do Rei" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/src/chess/ChessMath.java</url>
-          <line>49</line>
-          <properties class="src.chess.ChessMath" method="validateSourcePosition">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/src/boardgame/Piece.java</url>
           <line>20</line>
