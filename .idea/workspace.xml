@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="chess-system:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Peao">
-      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/Bishop.java" afterDir="false" />
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Bispo">
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/src/chess/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/BoarException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/BoardException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/Pawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +57,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/egvitorino/IdeaProjects/chess-system/out/artifacts/chess_system_jar/chess-system.jar",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\egvitorino\IdeaProjects\chess-system\src" />
@@ -203,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679078251984</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Bispo">
+      <created>1679079052262</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679079052262</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,31 +258,10 @@
     <MESSAGE value="Logica CheckMate" />
     <MESSAGE value="Contagem de movimento das peças" />
     <MESSAGE value="Peao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Peao" />
+    <MESSAGE value="Bispo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bispo" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/src/boardgame/Piece.java</url>
-          <line>20</line>
-          <properties class="src.boardgame.Piece" method="isThereAnyPossibleMove">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/src/chess/pieces/King.java</url>
-          <line>22</line>
-          <properties class="src.chess.pieces.King" method="possibleMoves">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="src.boardgame.Board" memberName="rows" />

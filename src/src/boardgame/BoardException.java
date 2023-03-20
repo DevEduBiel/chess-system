@@ -1,9 +1,9 @@
 package src.boardgame;
 
-public class BoarException extends RuntimeException {
+public class BoardException extends RuntimeException {
     private static final long serialVersion =1L;
 
-    public BoarException(String message) {
+    public BoardException(String message) {
         super(message);
     }
 }
