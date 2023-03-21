@@ -5,12 +5,12 @@ import src.chess.ChessPiece;
 import src.chess.ChessPosition;
 import src.chess.pieces.Color;
 
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
-import java.io.IOException;
+
 
 public class UI {
     // https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
@@ -35,6 +35,18 @@ public class UI {
     public static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
     // https://stackoverflow.com/questions/2979383/java-clear-the-console
+
+    static ChessMath chessMath = new ChessMath();
+    static List<ChessPiece> captured = new ArrayList<>();
+
+    public static void setChessMath(ChessMath chessMath) {
+        UI.chessMath = chessMath;
+    }
+
+    public static void setCaptured(List<ChessPiece> captured) {
+        UI.captured = captured;
+    }
+
     public static void clearScreen() {
         try {
             new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
@@ -51,6 +63,8 @@ public class UI {
             int row = Integer.parseInt(s.substring(1));
             return new ChessPosition(column, row);
         } catch (RuntimeException e) {
+            clearScreen();
+            printMath(chessMath, captured);
             System.out.println("Error: Enter a valid position");
             return readChessPosition(sc);
         }

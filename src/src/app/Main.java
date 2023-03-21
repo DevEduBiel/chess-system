@@ -16,9 +16,12 @@ public class Main {
         ChessMath chessMath = new ChessMath();
         List<ChessPiece> captured = new ArrayList<>();
 
+
         while (!chessMath.getCheckMate()) {
             try {
                 UI.clearScreen();
+                UI.setChessMath(chessMath);
+                UI.setCaptured(captured);
                 UI.printMath(chessMath, captured);
                 System.out.println();
                 System.out.print("Source: ");
