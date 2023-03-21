@@ -10,6 +10,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.stream.Collectors;
+import java.io.IOException;
 
 public class UI {
     // https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println
@@ -35,8 +36,11 @@ public class UI {
 
     // https://stackoverflow.com/questions/2979383/java-clear-the-console
     public static void clearScreen() {
-        System.out.print("\033[H\033[2J");
-        System.out.flush();
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (Exception E) {
+            System.out.println(E);
+        }
     }
 
 
@@ -92,9 +96,9 @@ public class UI {
     }
 
     private static void printPiece(ChessPiece piece, boolean background) {
-//        if(background){
-//            System.out.println(ANSI_PURPLE_BACKGROUND);
-//        }
+        if (background) {
+            System.out.print(ANSI_PURPLE_BACKGROUND);
+        }
         if (piece == null) {
             System.out.print("-" + ANSI_RESET);
         } else {
