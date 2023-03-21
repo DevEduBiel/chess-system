@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Movimento especial - Roque">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Movimento especial - En Passant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/chess/pieces/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/pieces/Pawn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679409943564</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Movimento especial - En Passant">
+      <created>1679414299197</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679414299197</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +285,8 @@
     <MESSAGE value="Cavalo" />
     <MESSAGE value="Rainha (fix UI)" />
     <MESSAGE value="Movimento especial - Roque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movimento especial - Roque" />
+    <MESSAGE value="Movimento especial - En Passant" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movimento especial - En Passant" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
