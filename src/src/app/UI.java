@@ -51,7 +51,8 @@ public class UI {
             int row = Integer.parseInt(s.substring(1));
             return new ChessPosition(column, row);
         } catch (RuntimeException e) {
-            throw new InputMismatchException("Error reading ChessPosition");
+            System.out.println("Error: Enter a valid position");
+            return readChessPosition(sc);
         }
     }
 

@@ -9,9 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Movimento especial - En Passant">
+    <list default="true" id="55207fef-20aa-4d51-be85-7d3198b7cc7e" name="Changes" comment="Movimento especial - Promotion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/app/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/app/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/chess/ChessMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/chess/ChessMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -247,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679414299197</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Movimento especial - Promotion">
+      <created>1679415700140</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679415700140</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,7 +294,8 @@
     <MESSAGE value="Rainha (fix UI)" />
     <MESSAGE value="Movimento especial - Roque" />
     <MESSAGE value="Movimento especial - En Passant" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movimento especial - En Passant" />
+    <MESSAGE value="Movimento especial - Promotion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movimento especial - Promotion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
